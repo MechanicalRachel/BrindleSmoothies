@@ -1,0 +1,68 @@
+﻿/* color palette
+yellow
+pink
+english violet: #5C415D
+cinnabar: #E94F37
+onyx: #393E41 */
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui;
+    color: #5C415D;
+    background-color: #E94F37;    
+}
+
+.content-wrap {
+    max-width: 800px;
+    width: 85%;
+    margin: 0 auto;
+}
+
+h1 {
+    background-color: pink;
+    padding: 0.5em;
+    display: grid;
+    justify-content: center;
+    border-style: solid;
+    margin: 0.5em;
+}
+
+h2 {
+    background-color: pink;
+    padding: 0.3em;
+    display: grid;
+    justify-content: center;
+    border-style: solid;
+    margin: 0.7em;
+}
+
+img {
+    border-style: solid;
+    background-color: pink;
+    padding: 0.5em;
+    margin: 1em;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img.resize {
+    height: auto;
+    width: auto;
+    max-width: 800px;
+    max-height: 600px;
+}
+
+p {
+    background-color: pink;
+    text-align: justify;
+    text-align-last: center;
+    padding: 0.5em;
+    border-style: solid;
+    margin: 1em;
+}

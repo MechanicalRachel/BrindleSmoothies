@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: palevioletred;
+    color:lavender;
+    font-family: 'poppins', sans-serif; 
+    font-size: 16px;
+    line-height: 1.5;   
+}
+
+h1{
+    margin-bottom: 15px;
+}
+
+.container{
+    max-width:1100px;
+    margin:0 auto;
+    padding: 0 30px;
+}
+
+.navbar{
+    background-color: indianred;
+    font-weight: bold;
+    font-size: 20px;
+    border-bottom-style:dotted;
+    border-bottom-color: palevioletred;
+}
+
+.navbar ul{
+    display:flex;
+    list-style-type: none;    
+}
+
+.navbar ul li{
+    margin-right: 30px;
+}
+
+.navbar a{
+    color:lavender;
+}
+
+.navbar a:hover{
+    color:lightblue;
+}
+
+.header{
+    display: flex;    
+    min-height: 300px;
+    margin-top: 40px;
+}
+
+.header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header h1{
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.header img{
+    max-width: 33%;
+    padding: 30px;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu .container{
+    background-color: rgb(199, 153, 227);
+    padding: 20px 25px;
+    border-style: dotted;
+    border-color: rgb(156, 95, 194);
+    max-width: 85%;
+}
+
+.menu h2{
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.menu h3{
+    font-weight: bold;
+}
+
+footer{
+    margin: 30px;
+    text-align: center;
+}
