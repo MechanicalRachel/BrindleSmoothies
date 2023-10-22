@@ -52,7 +52,7 @@ h1{
 .header{
     display: flex;    
     min-height: 300px;
-    margin-top: 40px;
+    margin-top: 50px;
 }
 
 .header .container{
