@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <title>Brindle Smoothies - Home</title>
+    <title>Brindle Smoothies - Contact</title>
 </head>
 <body>
 
@@ -14,6 +14,8 @@
     <nav class="navbar fixed-top"> <!-- <nav class="navbar navbar-expand-md navbar-dark py-3 fixed-top"></nav> -->
         <div class="container">
             <a href="index.html" class="navbar-brand">Brindle Smoothies</a>
+
+            <!-- Commented out portion is work-in-progress -->
 
             <!-- <button 
                 class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
@@ -45,27 +47,22 @@
         </div>
     </nav>
 
-    <!-- Main header -->
-    
-    <header class="header">
-        <div class="container">
-            <div>
-                <h1>Fresh and Nutritious</h1>
-                <p>Brindle Smoothies have simple ingredients that leave you feeling refreshed! Give one a try today!</p>
-            </div>      
-            <img src="img/smoothie.svg" alt="">      
-        </div>
-    </header>
+    <!-- Contact Form -->
 
-    <!-- Featured Menu -->
-
-    <section class="featured-items">
+    <section class="contact-form">
         <div class="container">
-            <h2>Featured Items</h2>   
-            <h3>Sweet Berry Protein</h3>  
-            <p>This antioxidant-rich smoothie features a frozen blend of blueberries, strawberries, and raspberries, with some chia seeds snuck in. Whey protein powder is added to feed your muscles. Can be made with or without milk.</p> 
-            <h3>Tropical Raybo</h3>  
-            <p>Get a refreshing taste of the tropics with a blend of pineapple, mango, and orange juice.</p> 
+            <h1>Drop us a line!</h1>
+            <form action="post" >
+                <div class="form-grid">
+                    <label>First Name</label>
+                    <input type="text" name="firstName">
+                    <label>Email</label>
+                    <input type="email" name="email">
+                    <label>Message</label>
+                    <textarea name="message"></textarea>
+                    <input type="submit" name="submit" value="Submit">
+                </div>        
+            </form>     
         </div>
     </section>
 
@@ -76,5 +73,6 @@
             Copyright &copy; 2023 Brindle Smoothies 
         </div>
     </footer>
+    
 </body>
 </html>
