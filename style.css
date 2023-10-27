@@ -136,6 +136,11 @@ h1{
 
 .menu h3{
     font-weight: bold;
+    text-align: center;
+}
+
+.menu p{
+    text-align: center;
 }
 
 .contact-form{
