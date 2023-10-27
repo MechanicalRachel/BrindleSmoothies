@@ -29,8 +29,7 @@ h1{
     background-color: indianred;
     font-weight: bold;
     font-size: 20px;
-    border-bottom-style:dotted;
-    border-bottom-color: palevioletred;
+    border: 3px dotted palevioletred;
 }
 
 .navbar ul{
@@ -78,6 +77,10 @@ h1{
     .header img{
         visibility:hidden;
         width: 0;
+    }
+
+    .header{
+        margin-left: 5%;
     }
 }
 
@@ -133,12 +136,6 @@ h1{
 
 .menu h3{
     font-weight: bold;
-}
-
-@media(max-width: 482px){
-    body{
-        margin-top: 105px;
-    }
 }
 
 .contact-form{
