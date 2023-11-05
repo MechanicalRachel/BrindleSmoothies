@@ -8,12 +8,12 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
 function App() {
   return (
-    <Router>
+    <Router basename="/brindle-smoothies-react">
       <div className="App">
         <Navbar />
         <div className="content">
           <Switch>
-            <Route exact path="/">
+            <Route exact path="/brindle-smoothies-react">
               <Home />
             </Route>
             <Route path="/menu">
