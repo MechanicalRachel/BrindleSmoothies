@@ -11,9 +11,11 @@ const Menu = () => {
                 <h3>Chocolate-covered Strawberry Protein</h3>  
                 <p>Irresistable chocolately-goodness paired with wonderful strawberries and protein powder.</p> 
                 <h3>Tropical Raybo</h3>  
-                <p>Get a refreshing taste of the tropics with a blend of pineapple, mango, and orange juice.</p> 
+                <p>Get a refreshing taste of the tropics with a blend of pineapple, mango, and orange juice. Beach not included...</p> 
                 <h3>Mango Chia Dance</h3>  
                 <p>Sweet mango blended with chia that will make you want to dance!</p> 
+                <h3>Refreshing Watermelon</h3>
+                <p>It's hard to beat that refreshing watermelon taste on a hot day. Lots of watermelon blended with a scoop of protein powder and milk.</p>
             </div>
         </section>
      );

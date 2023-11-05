@@ -2,7 +2,7 @@ const Navbar = () => {
     return ( 
         <nav className="navbar navbar-expand-md navbar-dark fixed-top">
             <div className="container">
-                <a href="/" className="navbar-brand">Brindle Smoothies</a>
+                <a href="/" className="navbar-logo">Brindle Smoothies</a>
 
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navmenu">
                     <span className="navbar-toggler-icon"></span>

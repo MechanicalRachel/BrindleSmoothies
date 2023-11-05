@@ -1,7 +1,7 @@
 const Footer = () => {
     return ( 
         <footer>
-            <div class="container">
+            <div className="container">
                 Copyright &copy; 2023 Brindle Smoothies 
             </div>
         </footer>
