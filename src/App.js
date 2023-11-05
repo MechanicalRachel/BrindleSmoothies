@@ -4,29 +4,23 @@ import Home from './Components/Home'
 import Footer from './Components/Footer'
 import Menu from './Components/Menu'
 import Contact from './Components/Contact'
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
 function App() {
   return (
-    <Router>
+    <BrowserRouter>
       <div className="App">
         <Navbar />
         <div className="content">
-          <Switch>
-            <Route exact path="/">
-              <Home />
-            </Route>
-            <Route path="/menu">
-              <Menu />
-            </Route>
-            <Route path="/contact">
-              <Contact />
-            </Route>
-          </Switch>          
+          <Routes>
+            <Route exact path="/" element={<Home />} />
+            <Route path="/menu" element={<Menu />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>          
         </div> 
         <Footer />       
       </div>
-    </Router>
+    </BrowserRouter>
   );
 }
 
