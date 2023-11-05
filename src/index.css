@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: palevioletred;
+    color:lavender;
+    font-family: 'poppins', sans-serif; 
+    font-size: 16px;
+    line-height: 1.5;   
+    margin-top: 100px;
+}
+
+h1{
+    margin-bottom: 15px;
+}
+
+.container{
+    max-width:1100px;
+    margin:0 auto;
+    padding: 0 30px;
+}
+
+.navbar{
+    background-color: indianred;
+    font-weight: bold;
+    font-size: 26px;
+    border: 3px dotted palevioletred;
+}
+
+.navbar-logo{
+    font-size: 30px;
+    color:lavender;
+    text-decoration: none;
+}
+
+.navbar ul{
+    display:flex;
+    list-style-type: none;    
+}
+
+.navbar ul li{
+    margin-right: 20px;
+}
+
+.navbar a{
+    color:lavender;
+}
+
+.navbar a:hover{
+    color:pink;
+}
+
+.header{
+    display: flex;    
+    min-height: 300px;
+}
+
+.header .container{
+    display: flex;
+    align-items: center;    
+    max-width: 85%;
+}
+
+.header h1{
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.header img{
+    max-width: 33%;
+    padding: 30px 5%;
+}
+
+@media(max-width: 800px){
+    .header img{
+        display:none;
+        width: 0;
+    }
+}
+
+.featured-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.featured-items .container{
+    background-color: rgb(199, 153, 227);
+    padding: 20px 25px;
+    border-style: dotted;
+    border-color: rgb(156, 95, 194);
+    max-width: 85%;
+}
+
+.featured-items h2{
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.featured-items h3{
+    font-weight: bold;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu .container{
+    background-color: rgb(204, 0, 88);
+    padding: 20px 25px;
+    border-style: dotted;
+    border-color: rgb(244, 107, 166);
+    max-width: 85%;
+}
+
+.menu h2{
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.menu h3{
+    font-weight: bold;
+    text-align: center;
+}
+
+.menu p{
+    text-align: center;
+}
+
+.contact-form{
+    align-items: center;
+}
+
+.contact-form .form-control{
+    background-color: lavender;
+    color: purple;
+}
+
+.contact-form .btn{
+    color: darkblue;
+}
+
+.form-grid{
+    display: grid;
+    align-items: center;
+    gap: 10px;
+}
+
+footer{
+    margin: 30px;
+    text-align: center;
+}
