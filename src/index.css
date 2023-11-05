@@ -56,9 +56,7 @@ h1{
 
 .header .container{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    
+    align-items: center;    
     max-width: 85%;
 }
 
@@ -70,17 +68,13 @@ h1{
 
 .header img{
     max-width: 33%;
-    padding: 30px;
+    padding: 30px 5%;
 }
 
 @media(max-width: 800px){
     .header img{
-        visibility:hidden;
+        display:none;
         width: 0;
-    }
-
-    .header{
-        margin-left: 5%;
     }
 }
 
