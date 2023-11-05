@@ -2,11 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import { HashRouter } from 'react-router-dom'
+
+// BrowserRouter doesn't work on Github Pages - need to use HashRouter
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <HashRouter hashType="hashbang">
+      <App />
+    </HashRouter>    
   </React.StrictMode>
 );
 
